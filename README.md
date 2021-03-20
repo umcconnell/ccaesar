@@ -29,6 +29,8 @@ You will need a C compiler and [GNU Make](https://www.gnu.org/software/make/)
 to compile the code. On Windows, it's probably easiest to use
 [WSL](https://docs.microsoft.com/en-us/windows/wsl/).
 
+_Optional requirements_:
+
 To test the program, you will need to intall
 [valgrind](https://www.valgrind.org/) on your machine. See [Testing](#testing)
 for more informarion.
