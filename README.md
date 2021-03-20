@@ -1,5 +1,7 @@
 # ccaesar
 
+[![test](https://github.com/umcconnell/ccaesar/actions/workflows/test.yml/badge.svg)](https://github.com/umcconnell/ccaesar/actions/workflows/test.yml)
+
 Caesar cipher CLI. Written in C.
 
 ## Table of Contents
