@@ -128,8 +128,8 @@ To benchmark the binary, use make:
 make bench
 ```
 
-Using [James Joyce's Ulysses](test/test2.txt) as input to `ccaesar`, yields
-the following results on a laptop (Intel i7-9750H):
+Using [James Joyce's Ulysses](test/test2.txt) as input to `ccaesar` yields the
+following results on a laptop (Intel i7-9750H):
 
 ```
 $ hyperfine --warmup 3 'cat test/test2.txt | ./ccaesar -s 7 -c'
