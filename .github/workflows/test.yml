@@ -1,0 +1,21 @@
+name: test
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Install gcc
+              run: sudo apt update && sudo apt install build-essential valgrind
+
+            - name: Test
+              run: make -B test

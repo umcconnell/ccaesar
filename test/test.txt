@@ -1,0 +1,7 @@
+Hello World!
+This is an example file.
+
+Some random characters:
+?éß§;!@#/😀
+
+It works!
